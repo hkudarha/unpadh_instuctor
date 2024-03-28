@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.top{
+    background-color:gray;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.Howhelp{
+    background-color: white;
+    width: 27vw;
+    padding: 2vh 2vw;
+    margin-left: 20%;
+}
+.searchbox{
+    margin-top: 2vh;
+    border: 1px solid black;
+    padding: 1vh 2vw;
+}
+.Howhelp h1{
+    font-weight: 500;
+    font-size: 2.1vw;
+}
+.searchbox input{
+    margin-left: 1vw;
+    border: none;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn button{
+    padding: 2vh 2vw;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 5vh;
+    font-size: 20px;
+    font-weight: bold;
+}
+.qustions{
+    width: 100%;
+    padding: 2vh 4vw;
+}
+.qustions h2{
+    margin-bottom: 2vh;
+}
+.boxes{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding:  2vh 0vw;
+    justify-content: space-between;
+}
+.boxes .box{
+    border: 1px solid black;
+    padding: 2vh 2vw;
+    height: 10vh;
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box h5{
+    text-align: center;
+}
+
+.Container{
+    width: 100%;
+    padding: 2vh 4vw;
+}
+.Container h2{
+    margin-bottom: 3vh;
+}
+.parts{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vh 0vw;
+}
+.part{
+    width: 28%;
+    height: 25vh;
+    padding: 4vh 2vw;
+    position: relative;
+    border: 1px solid black;
+}
+.part i{
+    margin-top: 2%;
+    margin-left:43% ;
+    padding: 1vw;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.part h5{
+    margin-top: 3vh;
+    text-align: center;
+}
+.part p{
+    text-align: center;
+    font-size: 15px;
+}
